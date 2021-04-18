@@ -44,7 +44,7 @@ class Level2 extends StatelessWidget {
 class Level3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Text(Provider.of<Data>(context).data);
+    return Center(child: Text(Provider.of<Data>(context).data));
   }
 }
 
